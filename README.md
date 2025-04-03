@@ -4,12 +4,11 @@
     <source media="(prefers-color-scheme: light)" srcset="./resources/logo-light.svg">
     <img src="./resources/logo-light.svg" alt="Jumble Logo" width="400" />
   </picture>
-  <p>logo designed by <a href="http://wolfertdan.com/">Daniel David</a></p>
 </div>
 
 # Jumble
 
-A beautiful nostr client focused on browsing relay feeds
+A ATL5D nostr client focused on browsing relay feeds
 
 ## Features
 
@@ -47,7 +46,7 @@ npm run dev
 
 If you like this project, you can buy me a coffee :)
 
-lightning: ⚡️ codytseng@getalby.com ⚡️
+lightning: ⚡️ hahz@getalby.com ⚡️
 
 bitcoin: bc1qx8kvutghdhejx7vuvatmvw2ghypdungu0qm7ds
 
