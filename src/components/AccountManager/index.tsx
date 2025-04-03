@@ -48,10 +48,10 @@ function AccountManagerNav({
   return (
     <div onClick={(e) => e.stopPropagation()} className="flex flex-col gap-8">
       <div>
-        <div className="text-center text-muted-foreground text-sm font-semibold">
+        <div className="text-sm font-semibold text-center text-muted-foreground">
           {t('Add an Account')}
         </div>
-        <div className="space-y-2 mt-4">
+        <div className="mt-4 space-y-2">
           {!!window.nostr && (
             <Button onClick={() => nip07Login().then(() => close?.())} className="w-full">
               {t('Login with Browser Extension')}
@@ -72,14 +72,14 @@ function AccountManagerNav({
       </div>
       <Separator />
       <div>
-        <div className="text-center text-muted-foreground text-sm font-semibold">
+        <div className="text-sm font-semibold text-center text-muted-foreground">
           {t("Don't have an account yet?")}
         </div>
         <Button
           onClick={() => {
             const wizard = new NstartModal({
               baseUrl: 'https://start.njump.me',
-              an: 'Jumble',
+              an: 'ATL5D',
               am: themeSetting,
               onComplete: ({ nostrLogin }) => {
                 if (!nostrLogin) return
@@ -103,7 +103,7 @@ function AccountManagerNav({
         <Button
           variant="link"
           onClick={() => setPage('generate')}
-          className="w-full text-muted-foreground py-0 h-fit mt-1"
+          className="w-full py-0 mt-1 text-muted-foreground h-fit"
         >
           {t('or simply generate a private key')}
         </Button>
@@ -112,7 +112,7 @@ function AccountManagerNav({
         <>
           <Separator />
           <div>
-            <div className="text-center text-muted-foreground text-sm font-semibold">
+            <div className="text-sm font-semibold text-center text-muted-foreground">
               {t('Logged in Accounts')}
             </div>
             <AccountList className="mt-4" afterSwitch={() => close?.()} />
