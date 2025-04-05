@@ -199,9 +199,9 @@ export default {
     All: 'All',
     Reactions: 'Reactions',
     Zaps: 'Zaps',
-    'Enjoying Jumble?': 'Enjoying Jumble?',
-    'Your donation helps me maintain Jumble and make it better! 😊':
-      'Your donation helps me maintain Jumble and make it better! 😊',
+    'Enjoying 🅰️?': 'Enjoying 🅰️?',
+    'Your donation helps me maintain 🅰️ and make it better! 😊':
+      'Your donation helps me maintain 🅰️ and make it better! 😊',
     'Earlier notifications': 'Earlier notifications',
     'Temporarily display this note': 'Temporarily display this note',
     buttonFollowing: 'Following',

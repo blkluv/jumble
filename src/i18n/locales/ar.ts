@@ -198,7 +198,7 @@ export default {
     All: 'الكل',
     Reactions: 'التفاعلات',
     Zaps: 'Zaps',
-    'Enjoying Jumble?': 'هل تستمتع بـ Jumble؟',
+    'Enjoying 🅰️?': 'هل تستمتع بـ Jumble؟',
     'Your donation helps me maintain Jumble and make it better! 😊':
       'تبرعك يساعد في صيانة Jumble وتحسينه! 😊',
     'Earlier notifications': 'الإشعارات السابقة',

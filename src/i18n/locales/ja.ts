@@ -200,9 +200,9 @@ export default {
     All: 'すべて',
     Reactions: '反応',
     Zaps: 'Zap',
-    'Enjoying Jumble?': 'Jumbleをお楽しみですか？',
-    'Your donation helps me maintain Jumble and make it better! 😊':
-      'あなたの寄付はJumbleの維持と改善に役立ちます！ 😊',
+    'Enjoying 🅰️?': '🅰️',
+    'Your donation helps me maintain 🅰️ and make it better! 😊':
+      'あなたの寄付はATL5Dの維持と改善に役立ちます！ 😊',
     'Earlier notifications': '以前の通知',
     'Temporarily display this note': 'このノートを一時的に表示',
     buttonFollowing: 'フォロー中',
